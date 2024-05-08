@@ -17,10 +17,36 @@
 
 <div class='controls'>
   <div class='controls_container'>
-    <%= link_to 'Add Knight', '/' %>
+    <%= link_to 'Add Knight', '/knight' %>
   </div>
   <div class='controls_container'>
-    <%= link_to 'Add Medusa', '/' %>
+    <%= link_to 'Add Mage', '/mage' %>
+  </div>
+  <div class="controls_container">
+    <%= link_to 'Ulta 1', { action: :team1_ultimate }, method: :get %>
+  </div>
+  <div class='controls_container'>
+    <%= link_to 'Delete Knight', '/destroy_knight' %>
+  </div>
+  <div class='controls_container'>
+    <%= link_to 'Delete Mage', '/destroy_mage' %>
+  </div>
+
+  <div class='controls_container'>
+    <%= link_to 'Add Medusa', '/medusa' %>
+  </div>
+  <div class='controls_container'>
+    <%= link_to 'Add Jinn', '/jinn' %>
+  </div>
+  <div class="controls_container">
+    <%= link_to 'Ulta 2', { action: :team2_ultimate }, method: :get %>
+  </div>
+
+  <div class='controls_container'>
+    <%= link_to 'Delete Medusa', '/destroy_medusa' %>
+  </div>
+  <div class='controls_container'>
+    <%= link_to 'Delete Jinn', '/destroy_jinn' %>
   </div>
 </div>    
 
